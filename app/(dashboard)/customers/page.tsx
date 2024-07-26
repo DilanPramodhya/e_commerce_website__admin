@@ -2,7 +2,7 @@ import { DataTable } from '@/components/custom ui/DataTable'
 import { columns } from '@/components/customers/CustomerColumns'
 import { Separator } from '@/components/ui/separator'
 import Customer from '@/lib/models/Customer'
-import { connectToDB } from '@/lib/mongoDB'
+import  connectToDB  from '@/lib/mongoDB'
 
 const Customers = async () => {
   await connectToDB()
